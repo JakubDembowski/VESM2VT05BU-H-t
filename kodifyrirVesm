@@ -140,7 +140,8 @@ timeCount = 0;
     digitalWrite(COL_8, (~b >> 7) & 0x01); // Get the 8th bit: 00000001
 }
 --------------------------------------
-Hægt er að teikna mynd á ledið:
+
+Hægt er að teikna mynd á led'ið og stroka út með takka:
 
 const int row[8] = {
 
